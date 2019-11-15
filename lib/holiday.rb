@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |key, value|
   value.each do |holiday, items|
-    
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
