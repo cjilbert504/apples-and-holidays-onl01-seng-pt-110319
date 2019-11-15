@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |key, value|
   key.capitalize
-  value.capitalize
   puts "#{key}: #{value}"
   end
 end
